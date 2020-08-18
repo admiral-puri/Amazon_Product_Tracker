@@ -62,7 +62,7 @@ def send_mail(product_title, avail, price, url, reciever_email_id):
     print(" *** working on email ***")
 
     GMAIL_USERNAME = "amtrackerbhai@gmail.com"
-    GMAIL_PASSWORD = "not_a_bot@123"
+    GMAIL_PASSWORD = "*******"
 
     recipient = reciever_email_id
     body_of_email = "Hurry!!! your product " + product_title + " is " + avail + " at Rs " + str(price) + "\n" + "Product Link " + url
