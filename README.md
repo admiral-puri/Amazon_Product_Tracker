@@ -7,8 +7,8 @@ notifies user with an email implemented using Web Scrapping and Multi-threading.
  * Flask
  * Mongodb
  * Python3
- * Selenium
- * Geckodriver
+ * Requests
+ * BeautifulSoup
  
  ## Working of Program is Shown with Images
  ### User Interface
