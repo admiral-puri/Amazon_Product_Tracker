@@ -5,7 +5,6 @@ notifies user with an email implemented using Web Scrapping and Multi-threading.
 
 ## Requirements:
  * Flask
- * Mongodb
  * Python3
  * Requests
  * BeautifulSoup
