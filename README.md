@@ -1,13 +1,14 @@
 # Amazon_Product_Tracker
 
-This Python program track Amazon Products and their availability repetitively until its price comes under given desired price and then
-notifies user with an email implemented using Web Scrapping and Multi-threading.
+A web application that track Amazon Products and their availability repetitively until its price comes under given desired price and then
+notifies user with an email implemented using Web Scraping.
 
 ## Requirements:
  * Flask
  * Python3
  * Requests
  * BeautifulSoup
+ * Selenium
  
  ## Working of Program is Shown with Images
  ### User Interface
