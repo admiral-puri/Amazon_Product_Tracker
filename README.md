@@ -10,7 +10,7 @@ notifies user with an email implemented using Web Scraping.
  * BeautifulSoup
  * Selenium
  
- ## Working of Program is Shown with Images
+ ## Working of Web Application is Shown with Images
  ### User Interface
 ![](img_for_github/scr1.png)
  ### Entries Being Filled
