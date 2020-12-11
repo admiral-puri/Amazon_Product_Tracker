@@ -12,16 +12,16 @@ notifies user with an email implemented using Web Scraping.
  
  ## Working of Program is Shown with Images
  ### User Interface
-![](scr1.png)
+![](img_for_github/scr1.png)
  ### Entries Being Filled
-![](scr2.png)
+![](img_for_github/scr2.png)
  ### Successfull submission 
-![](scr3.png)
+![](img_for_github/scr3.png)
  ### Initial condition of SERVER and SCRIPT
-![](scr4.png)
+![](img_for_github/scr4.png)
  ### For First product Email is sent to the USER
-![](scr6.png)
+![](img_for_github/scr6.png)
  ### ONE URL stored in DATABASE since price is greater than Desired Price
-![](scr5.png)
+![](img_for_github/scr5.png)
 
 
