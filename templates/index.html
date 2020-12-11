@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Tracker Service</title>
+	<style>
+		body { 
+  background-color:powderblue;
+/*  align="center";*/
+}
+.buttton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.in1{
+	background-color: #f44336;
+	}
+.in2{
+	background-color: #008CBA;
+}
+	</style>
+
+</head>
+<body  ><center>
+
+	<script type="text/javascript">var num = 1</script>
+
+	<h1  >WELCOME TO OUR TRACKER SERVICE</h1>
+	<!-- <p>enter the given data carefully</p> -->
+	<form  method="post" id="form">
+		Enter your Email for Notification :<br>
+		<input type="email" name="mail" required><br>
+		
+		<p>Enlist Product URL and its Desired Price</p>
+
+		<button class="buttton in2" onclick="myFunction()" type="button">Add More Products</button>
+
+		<button class="buttton in1" onclick="removeElement()" type="button">Remove Last Product</button>
+
+		<input  class="buttton" type="submit" name="Submit" value="Submit 1 Product" id ="Submit" ><br>
+
+		<input type="url" name="1url" required placeholder="Enter Product URL">
+
+		<input type="number" name="1price" required placeholder="Enter Desired Price">
+		<br>
+
+ 
+		 <script>
+
+
+			function myFunction() {
+
+				incrementValue();
+			
+
+				var b = document.getElementById("form")
+			    
+				var x = document.createElement("INPUT");
+				x.setAttribute("type", "url");
+				x.setAttribute("name", num.toString(10)+"url");
+				x.setAttribute("placeholder", "enter product url");
+				x.setAttribute("id",num.toString(10)+"url");
+				x.required = true;
+				b.appendChild(x);
+
+				var y = document.createElement("INPUT");
+				y.setAttribute("type","number");
+				y.setAttribute("name", num.toString(10)+"price");
+				y.setAttribute("placeholder","desired price");
+				y.setAttribute("id",num.toString(10)+"price");
+				y.required = true;
+				b.appendChild(y);
+
+				var br = document.createElement("br");
+				br.setAttribute("id",num.toString(10)+"br");
+				b.appendChild(br);
+
+				
+			  }
+
+			  function removeElement() {
+
+
+			    
+			    if (num > 1){
+
+			    	
+				    var element = document.getElementById(num.toString(10)+"url");
+				    element.parentNode.removeChild(element);
+
+				    element = document.getElementById(num.toString(10)+"price");
+				    element.parentNode.removeChild(element);
+
+				    element = document.getElementById(num.toString(10)+"br");
+				    element.parentNode.removeChild(element);
+
+				    decreaseValue();
+
+				    
+			    }
+			  }
+
+			  function incrementValue()
+				{
+				   
+				    num++;
+				     document.getElementById('Submit').value = "Submit "+num.toString(10)+" product";
+				
+				}
+
+			  function decreaseValue()
+				{
+				
+				    num--;
+				    document.getElementById('Submit').value = "Submit "+num.toString(10)+" product";
+				  
+				}
+		</script>
+	</form> 
+</center>
+</body>
+</html>
